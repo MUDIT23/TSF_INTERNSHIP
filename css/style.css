@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.intro{
+	background: #8fc9ff;
+}
+h1{
+	/* color: #4C4B4B; */
+	color: #000000;
+	font-weight: bold;
+	transition: 0.5s;
+}
+h3{
+	color:#2F363F;
+}
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#7B8788; 
+	background:#8fc9ff ;
+	/* color:white; */
+	color: #000000;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	background-color:#d2f2f7;
+
+}
+footer{
+	color:#000000;
+	background-color:#8fc9ff;
+	letter-spacing: 0.5px;
+}
+footer p{
+	margin: 0;
+	font-size: 15px;
+}
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+}
+/* #b1{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#a10810; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+
+#b2{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#eeea08; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+
+#b3{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#860f0f; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+} */
+
+.bank_image{
+	max-width: 70%;
+}
